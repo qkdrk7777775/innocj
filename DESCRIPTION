@@ -1,12 +1,13 @@
 Package: innocj
 Type: Package
-Title: What the Package Does (Title Case)
+OS_type: windows
+Title: An Installation Framework for Shiny Apps
 Version: 0.1.0
-Author: Who wrote it
+Author: cjcho
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
@@ -27,3 +28,10 @@ Imports:
   yaml,
   flexdashboard,
   magrittr
+Suggests:
+  knitr,
+  stringi,
+  covr,
+  testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
