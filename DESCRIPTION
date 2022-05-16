@@ -9,3 +9,22 @@ Description: More about what it does (maybe more than one line)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports:
+  curl,
+  glue (>= 1.2.0),
+  httr,
+  installr,
+  jsonlite,
+  magrittr,
+  methods,
+  pkgbuild,
+  remotes,
+  rmarkdown,
+  shiny,
+  stringr ,
+  utils,
+  
+  markdown,
+  yaml,
+  flexdashboard,
+  magrittr
