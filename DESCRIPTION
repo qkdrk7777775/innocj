@@ -23,7 +23,6 @@ Imports:
   shiny,
   stringr ,
   utils,
-  
   markdown,
   yaml,
   flexdashboard,
